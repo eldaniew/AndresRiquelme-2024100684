@@ -8,9 +8,13 @@ package com.andresriquelme.ejercicio1;
  *
  * @author laboratorioasu
  */
-public class Ejercicio1 {
 
+public class Ejercicio1 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Persona persona = new Persona();
+        persona.nombre = "Juan";
+        persona.edad = 19;
+        
+        persona.mostrarInformacion();
     }
 }
